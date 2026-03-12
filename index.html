@@ -12,7 +12,7 @@
 <div class="container">
 
 <header>
-<h1>PCGSAT Reviewer</h1>
+<h1>PCGSAT Practice Exam</h1>
 </header>
 
 <div class="exam-info">
@@ -28,18 +28,26 @@
 <div id="questionBox"></div>
 
 <div class="navButtons">
-<button type="button" id="prevBtn">Previous</button>
-<button type="button" id="nextBtn">Next</button>
-<button type="submit" id="submitBtn">Submit Exam</button>
-</div>
+    <button type="button" id="prevBtn">Previous</button>
+    <button type="button" id="nextBtn">Next</button>
+    <button type="button" id="submitBtn">Submit Exam</button>
+    <!--<div id="retakeContainer" style="display:inline-block; margin-left:10px;"></div>-->
+  </div>
 
+  
 </form>
 
-<div id="result">
+<!--<div id="result">
     <div id="retakeContainer" style="text-align:center; margin-top:20px;"></div>
 </div>
 
+</div>-->
+
+<div id="resultContainer">
+<div id="result"></div>
+<div id="retakeContainer"></div>
 </div>
+
 
 <script src="questions.js"></script>
 <script src="app.js"></script>
