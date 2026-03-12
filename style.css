@@ -117,7 +117,9 @@ button:hover {
 }
 
 #retakeBtn {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 10px 18px;
     border: none;
     border-radius: 6px;
@@ -125,10 +127,37 @@ button:hover {
     color: white;
     font-size: 16px;
     cursor: pointer;
-    margin-top: 15px;
     transition: background 0.2s;
+    
 }
 
-#retakeBtn:hover {
-    background-color: #1e7e34;
+.question-image{
+    width:100%;
+    max-width:600px;
+    display:block;
+    margin:15px auto;
+    border-radius:8px;
+    border:1px solid #ddd;
+}
+
+.result-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#resultContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#result {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
