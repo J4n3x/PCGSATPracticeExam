@@ -219,10 +219,10 @@ questionBank.push(
     {
     q: "Which international body oversees SOLAS implementation?",
     choices: [
-    "UN",
-    "WTO",
-    "IMO",
-    "ASEAN"
+    "United Nations",
+    "Wold Trade Organization",
+    "International Maritime Organizarion",
+    "Association of South East Asian Nation"
     ],
     answer: 2,
     explanation: "The International Maritime Organization (IMO) is the UN specialized agency responsible for regulating international shipping and implementing conventions such as SOLAS."
@@ -262,8 +262,164 @@ questionBank.push(
     ],
     answer: 2,
     explanation: "Under RA 9993, the Philippine Coast Guard has authority to board and inspect vessels to enforce maritime safety, security, environmental, and other related national laws."
-    }
-    )
+    },
+
+    //verbal reasoning
+    {
+        q:"Which word does not belong?",
+        choices:["Dog","Cat","Cow","Car"],
+        answer: 3,
+        explanation:"Car is not an animal"
+    },
+
+    {
+        q:"Eagle is to bird as rose is to________",
+        choices:["Red","Beautiful","Gentleman","Flower"],
+        answer: 3,
+        explanation:"Eagle is a type of bird and rose is a type of flower."
+    },
+
+    {
+        q:"Which is the odd one out?",
+        choices:["Juice","Salt","Coffee","Milk"],
+        answer: 1,
+        explanation: "The other choices are liquid"
+    },
+
+    {
+        q:"he word closest in meaning to “Rapid.”",
+        choices:["Slow","Quick","Weak","Late"],
+        answer: 1,
+        explanation: "“Rapid” means very fast or quick, so the closest meaning is Quick."
+    },
+
+    {
+        q:"Choose the opposite of “Generous.”",
+        choices:["Kind","Selfish","Friendly","Honest"],
+        answer: 1,
+        explanation: "A generous person likes to give and share. The opposite is someone who keeps things for themselves, which is selfish."
+    },
+
+    {
+        q:"Doctor : Hospital :: Teacher : ?",
+        choices:["Classroom","Library","Book","Office"],
+        answer: 0,
+        explanation: "A doctor works in a hospital, similarly a teacher works in a classroom."
+    },
+
+    {
+        q:"Which word does not belong?",
+        choices:["Apple","Mango","Carrot","Banana"],
+        answer: 2,
+        explanation: "Apple, mango, and banana are fruits, while carrot is a vegetable, so it does not belong."
+    },
+
+    {
+        q:"She was very tired, ______ she finished her work.",
+        choices:["but","because","if","unless"],
+        answer: 0,
+        explanation: "The sentence shows contrast. Even though she was tired, she still finished her work. The word “but” expresses this contrast."
+    },
+
+    {
+        q:"Puppy : Dog :: Kitten : ?",
+        choices:["Cat","Tiger","Cub","Pet"],
+        answer: 0,
+        explanation: "A puppy is a young dog, and a kitten is a young cat."
+    },
+
+    {
+        q:"Choose the word closest in meaning to “Ancient.”",
+        choices:["Modern","Old","Fresh","Quick"],
+        answer: 1,
+        explanation: "“Ancient” means very old or from a long time ago, so Old is the closest meaning."
+    },
+
+    {
+        q:"Pen : Write :: Knife : ?",
+        choices:["Cut","Draw","Eat","Paint"],
+        answer: 0,
+        explanation: "A pen is used to write, and a knife is used to cut."
+    },
+
+    {
+        q:"If it rains, we will ______ the picnic.",
+        choices:["cancel","grow","build","drive"],
+        answer: 0,
+        explanation: "Rain would stop the picnic from happening, so the correct word is cancel."
+    },
+
+    //percentage
+    { //q1
+        q:"Find the value: 30% of 700",
+        choices:["220","225","210","230"],
+        answer: 2,
+        explanation: "30% of 700 = (30 * 700 )/100 = 210"
+    },
+
+    { //q2
+        q:"A beauty e-commerce startup marks its products at a price 80% above the cost. During Diwali sale, firm runs a 25% discount on the marked price. Find out firm’s overall profit percentage during Diwali Sale?",
+        choices:["15%","35%","25%","50%"],
+        answer: 1,
+        explanation: "Let the cost price be 100. Marked price =100+80=180 . Selling price after 25% discount = 180 × 0.75 = 135 . Profit percentage = fraction(135 – 100 over 100) × 100 = 35 %"
+    },
+
+    { //q3
+        q:"Imagine the price of your favourite shirt gets a 25% hike one day and a 20% markdown the next. What’s the net percentage increase in its price?",
+        choices:["0%","5%","2%","10%"],
+        answer: 0,
+        explanation: "Let the original price be 100. \n After a 25% increase: 100 × 1.25 = 125. \n After a 20% decrease: 125 × 0.80 = 100 . The net change is 0%."
+    },
+
+    { //q4
+        q:"In a class, 40% of the students passed in Mathematics, and 50% passed in Science. If 25% passed in both subjects, what percentage of students unfortunately failed in both subjects?",
+        choices:["25%","50%","40%","35%"],
+        answer: 3,
+        explanation: "Let total students = 100 . \n Passed in Math = 40, in Science = 50, in both = 25. \n So, passing in at least one subject = 40 + 50 − 25=65. \n Failing in both subjects = 100−65=35%."
+    },
+
+    { //q5
+        q:"A person carefully budgets his salary: 40% goes to rent, 25% to groceries, 15% to transportation, and the rest goes into savings. If his monthly salary is 5000, how much does he save?",
+        choices:["1500","200","750","1000"],
+        answer: 3,
+        explanation: "Total expenses = 40% + 25% + 15% = 80%. \n Savings = 100% − 80% = 20%. \n Amount saved = 5000 × 0.20 = 1000"
+    },
+
+    { //q6
+        q:"Sixty percent of a number is 240. Can you crack the code and find out what 75% of that number is?",
+        choices:["250","360","300","400"],
+        answer: 2,
+        explanation: "Let the number be x. \n Then, 0.6x = 240. So, x = fraction (240 over 0.6) = 400 . Then, 0.75 × 400 = 300."
+    },
+    
+    { //q7
+        q:"A product’s price bounces around: it’s increased by 10% one month but reduced by 10% the next. What’s the net impact on the price after these changes?",
+        choices:["1% decrease","1% increase","2% decrease","0%"],
+        answer: 0,
+        explanation: "Let the original price be 100. \n After a 10% increase: 100 × 1.10 = 110.  /n After a 10% decrease: 110 × 0.90 = 99. \n Net percentage change = fraction(99 – 100 / 100) × 100 =  −1%"
+    },
+
+    { //q8
+        q:"At a college, 30% of students are football fans, 40% enjoy basketball, and 20% love both. What percentage of students prefer neither sports?",
+        choices:["20%", "30%", "40%", "50%"],
+        answer: 3,
+        explanation: "Total students = 100. Students who prefer at least one sport = 30 + 40 – 20 = 50. Students who prefer neither sport = 100 – 50 = 50%"
+    },
+
+    { //q9
+        q:"Price of a newly launched luxury bag increases by 20% and becomes $600 few days after the launch. What was its price during the launch day?",
+        choices:["450","480","520","500"],
+        answer: 3,
+        explanation: "Let the number be x. Then x * 1.20 = 600. So, x = fraction(600 over 1.20) = 500."
+    },
+
+    { //q10
+        q:"A lucky employee celebrates two consecutive salary hikes: 15% first, followed by another 10%. What’s the total percentage increase in their salary?",
+        choices:["25%","27.5%","26.5%","28%"],
+        answer: 2,
+        explanation: "15 + 10 + frac{15 * 10}{100} = 26.5%"
+    },
+)
 
 
 function generalKnowledge(){
@@ -322,31 +478,10 @@ function ratio(){
     }
 }
 
-function verbal(){
-    return {
-        q:"Which word does not belong?",
-        choices:["Dog","Cat","Cow","Car"],
-        answer: 3,
-        explanation:"Car is not an animal"
-    },
 
-    {
-        q:"Eagle is to bird as rose is to________",
-        choices:["Red","Beautiful","Gentleman","Flower"],
-        answer: 3,
-        explanation:"Eagle is a type of bird and rose is a type of flower."
-    },
-
-    {
-        q:"Which is the odd one out?",
-        choices:["Juice","Salt","Coffee","Milk"],
-        answer: 1,
-        explanation:"All other options are liquid."
-    }
-}
 
 for(let i=0;i<60;i++){
-    let generators=[numberSeries,letterSeries,algebra,ratio,verbal]
+    let generators=[numberSeries,letterSeries,algebra,ratio]
     let g=generators[Math.floor(Math.random()*generators.length)]
     questionBank.push(g())
 }
